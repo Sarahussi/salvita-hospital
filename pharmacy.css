@@ -1,0 +1,62 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255, 249, 240);
+     /* font-family: "oleo script", system-ui;  */
+    font-family: "Brush Script MT", cursive;
+}
+h1,h3{
+    color: #045549;
+    text-align: center;
+}
+.Painkillers,.cold ,.Antibiotics,.Digestive {
+    margin: 30px;
+    margin-top: 50px;
+    color: #045549;
+}
+h2{
+    color: #045549;
+    text-align: center;
+}
+.shelf{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item{
+    background-color: #fff3e3;
+    padding: 20px;
+    border-radius: 10px 10px;
+    width: 20%;
+    font-size: larger;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+
+}
+.item:hover {
+    transform: translateY(-10px);
+}
+
+.available{
+    color: green;
+    font-weight: bold;
+}
+.out{
+    color: red;
+    font-weight: bold;
+}
+.name{
+    color: whitesmoke;
+    background-color: #045549;
+    border-radius: 10px 10px;
+    font-size: medium;
+    text-align: center;
+    height: 22px;
+    width: 100px;
+    font-weight: bolder;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin: 0 auto;
+   
+}
+

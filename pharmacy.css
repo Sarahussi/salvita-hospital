@@ -49,17 +49,17 @@ body{
     margin-right: 5px;
 }
 h1,h3{
-    color: #045549;
+    color: #7BC1B7;
     text-align: center;
     font-family: "Overpass", sans-serif;
 }
 .Painkillers,.cold ,.Antibiotics,.Digestive {
     margin: 30px;
     margin-top: 50px;
-    color: #045549;
+    color: #7BC1B7;
 }
 h2{
-    color: #045549;
+    color: #7BC1B7;
     text-align: center;
     font-family: "Overpass", sans-serif;
 }
@@ -69,7 +69,7 @@ h2{
 }
 
 .item{
-    background-color: #ECDCBF;
+    background-color: #7BC1B7;
     padding: 20px;
     border-radius: 10px 10px;
     width: 20%;

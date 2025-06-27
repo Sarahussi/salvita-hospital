@@ -2,7 +2,7 @@ body{
     padding: 0;
     margin: 0;
     background-color: rgb(255, 249, 240);
-    font-family: 'Georgia', serif;
+/*     font-family: 'Georgia', serif; */
 }
 .navbar {
     background-color: #7BC1B7;
@@ -51,6 +51,7 @@ body{
 h1,h3{
     color: #045549;
     text-align: center;
+    font-family: "Overpass", sans-serif;
 }
 .Painkillers,.cold ,.Antibiotics,.Digestive {
     margin: 30px;

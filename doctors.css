@@ -1,0 +1,130 @@
+
+body {
+   text-align: center;
+    padding: 20px;
+    background-color: #FFFAEC;
+  }
+  
+  .h {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .h h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: "Oleo Script", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: #257180;
+  
+  }
+  
+  .h h3 {
+    font-size: 20px;
+    color: #48A6A7;
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 50px;
+  }
+  
+  .doctors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    gap: 20px; 
+    max-width: 1000px;
+    margin: 20px auto;
+  }
+  
+  .card {
+    display: flex;
+    width: 410px;
+    margin:20px;
+    height: 200px;
+    background-color: #ECDCBF;
+    border-radius: 8px;
+    box-shadow: 0 3px 7px rgba(0,0,0,0.1);
+    padding: 20px;
+    transition: transform 0.2s;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+  }
+  
+  .card img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    margin-left: 15px; 
+    border-radius: 6px;
+  }
+  p{
+    font-family: "Overpass", sans-serif;
+  }
+  .card h4,
+  .card h5,
+  .card h6 {
+    margin: 4px 0;
+    justify-content: center;
+  }
+  
+  .card h4 {
+    margin-top: 5px;
+    font-size: 20px;
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 50px;
+    font-style: normal;
+    color: #257180;
+  }
+  
+  .card h5 {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #444;
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal
+  }
+  .card h6 {
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-left: 50px;
+    font-size: 16px;
+    color: #444;
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal
+  }
+  .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+  .click {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color:#257180;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: fit-content;
+   margin-left :60px;
+   margin-right: 80 px;
+   
+  }
+  
+  .click:hover {
+    background-color:#7BC1B7 ;
+  }
+  

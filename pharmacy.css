@@ -71,7 +71,7 @@ h2{
 .item{
     background-color: #ecdcbf;
     padding: 20px;
-    border-radius: 10px 10px;
+    border-radius: 35px;
     width: 20%;
     font-size: larger;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -93,7 +93,7 @@ h2{
 .name{
     color: whitesmoke;
     background-color: #045549;
-    border-radius: 10px 10px;
+    border-radius: 20px;
     font-size: medium;
     text-align: center;
     height: 22px;

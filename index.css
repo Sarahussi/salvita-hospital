@@ -266,32 +266,118 @@ body {
   color: #257180;
 }
 
-.footer-container{
+footer {
   background-color: #5da79b;
+  padding: 10px 20px;
+  margin-top: 30px;
+  max-height: 200px ;
+}
+
+.footer-container {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+}
+
+.footer-column {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+#logo-footer {
+  margin-top: 20px ;
+  margin-left: 30px;
+}
+
+.footertitle {
+  font-size: 22px;
+  font-weight: bold;
+  color: #257180;
+  margin-bottom: 15px;
+  text-align: center;
+  display: inline-block;
+  border-bottom: 3px solid #257180;
+  padding-bottom: 2px;
+}
+
+.footer-item {
   display: flex;
   align-items: center;
-  gap: 10px;
-  flex-direction: row;
-  margin-top: 20px;
-}
-
-.logo-footer{
-  margin-right: 5px;
-}
-
-.footer-link{
-  margin: 10px 10px;
-}
-
-.footer-link a {
-  text-decoration: none;
-  font-size: 20px;
-  display: block;
-  color: white;
   margin-bottom: 10px;
 }
-.footer-links img {
-    width: 15px;
-    margin-right: 5px;
+
+.footer-item img {
+  width: 18px;
+  margin-right: 8px;
+}
+
+.footer-item a {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+}
+
+.footer-item :hover{
+  color: #257180;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-list {
+  width: 350px;
+  display: flex;
+  flex-wrap:wrap ;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 0;
+  gap: 10px;
+}
+
+.footer-list :hover{
+  color: #257180;
+}
+.footer-list img {
+  width: 18px;
+  margin-right: 8px;
+}
+
+.footer-list a {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  margin-right: 10px;
+}
+
+.footer-loc {
+  text-align: center;
+}
+
+.footer-loc p {
+  color: white;
+  font-size: large;
+  margin-top: 0;
+}
+
+.find-us button{
+  background-color: #257180;
+  color: white;
+  border-radius: 10px ;
+  padding: 5px 15px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.find-us :hover{
+  background-color: white;
+  color: #257180;
 }
 

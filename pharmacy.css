@@ -99,8 +99,7 @@ h2{
     height: 22px;
     width: 100px;
     font-weight: bolder;
-    padding-top: 4px;
-    padding-bottom: 4px;
+    padding: 4px 0;
     margin: 0 auto;
    font-family: "Overpass", sans-serif;
 }

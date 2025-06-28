@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,13 +28,13 @@
     <div class="left">
        <h1>salvita</h1>
        
-        <form class="register_form">
+        <form class="register_form" id="form">
             <h2>Register</h2>
           <input type="text" placeholder="First Name" required>
           <input type="text" placeholder="Last Name" required>
           <input type="email" placeholder="Email" required>
           <input type="password" placeholder="Password" required>
-          <button type="submit" onclick="reg()" >Sign up</button>
+          <button type="submit" >Sign up</button>
           
         </form>
        </div>
@@ -51,10 +52,15 @@
 </div>
 
     </div>
+    
    <script>
-    function reg(){
+     const form = document.getElementById("form");
+
+    form.addEventListener("submit", function(event) {
+      event.preventDefault(); 
     alert("Account created successfully! Welcome aboard.");
-    }
+     form.reset();
+    })
     </script>
 </body>
 </html>

@@ -28,7 +28,7 @@
        <h1>salvita</h1>
        
        
-        <form class="login">
+        <form class="login" id="form">
             <h2>Log In</h2>
           <input type="email" placeholder="Email" required>
           <input type="password" placeholder="Password" required>
@@ -50,12 +50,14 @@
 </div>
 
     </div>
-
+    
         <script>
-            function log(){
-                alert("Welcome back! You have successfully logged in.");
-                
-            }
+            const form = document.getElementById("form");
+            form.addEventListener("submit", function(event) {
+                event.preventDefault(); 
+                alert("Your booking has been successfully received. Thank you!");
+                form.reset();
+            } )
         </script>
 </body>
 </html>

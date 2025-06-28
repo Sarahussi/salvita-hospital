@@ -2,6 +2,8 @@
 body {
    text-align: center;
     background-color: #FFFAEC;
+   margin:0px;
+   padding:0px;
   }
 .navbar {
     background-color: #7BC1B7;
